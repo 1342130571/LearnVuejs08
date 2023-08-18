@@ -1,10 +1,16 @@
 <template>
   <div id="app">
     <h2>{{ message }}</h2>
+    <h2>-----APP内容-------</h2>
     <h2>{{ $store.state.counter }}</h2>
     <button @click="addition()">+1</button>
     <button @click="subtraction()">-1</button>
 
+    <h2>-----APP内容：getters相关内容-------</h2>
+    <h2>{{ $store.getters.powerCounter }}</h2>
+    <h2>{{ $store.getters.more20stu }}</h2>
+
+    <h2>------Hello Vuex内容--------</h2>
     <hello-vuex></hello-vuex>
   </div>
 </template>
