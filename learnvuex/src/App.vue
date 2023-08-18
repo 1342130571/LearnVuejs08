@@ -9,6 +9,9 @@
     <h2>-----APP内容：getters相关内容-------</h2>
     <h2>{{ $store.getters.powerCounter }}</h2>
     <h2>{{ $store.getters.more20stu }}</h2>
+    <h2>{{ $store.getters.more20stuLength }}</h2>
+    <h2>自定义大于年龄xx有几位</h2>
+    <h2>{{ $store.getters.moreAgeStu(20) }}</h2>
 
     <h2>------Hello Vuex内容--------</h2>
     <hello-vuex></hello-vuex>
